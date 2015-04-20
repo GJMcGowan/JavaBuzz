@@ -20,6 +20,7 @@ describe('Javabuzz', function () {
     });
 
   });
+
   describe('it returns false when', function(){
 
     it('is not divisible by 3', function(){
@@ -49,6 +50,7 @@ describe('Javabuzz', function () {
     it('says "Java" when divisible by three', function(){
       expect(javabuzz.say(3)).toEqual('Java');
     });
+
   });
 
   describe('it can count upwards', function(){

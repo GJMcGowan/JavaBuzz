@@ -24,7 +24,7 @@ Javabuzz.prototype.say = function(number) {
 };
 
 Javabuzz.prototype.play = function(max) {
-  var list = []
+  var list = [];
   for(count = 1; count <= max; count++){
     list.push(this.say(count));
   };
